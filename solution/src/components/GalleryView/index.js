@@ -23,7 +23,7 @@ function GalleryView({ galleries }) {
               ))}
             </div>
           }
-        ></Route>
+        />
         <Route
           path='art/:artId'
           element={<ArtDescription gallery={gallery} />}

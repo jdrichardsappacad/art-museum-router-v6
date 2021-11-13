@@ -1,9 +1,8 @@
 import harvardArt from './data/harvardArt';
 
-import { Routes, Route, Outlet } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import GalleryNavigation from './components/GalleryNavigation';
 import GalleryView from './components/GalleryView';
-import ArtDescription from './components/ArtDescription';
 
 function App() {
   return (
@@ -23,7 +22,6 @@ function App() {
                 </p>
               </>
             }
-            end
           ></Route>
 
           <Route
